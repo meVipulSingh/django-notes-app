@@ -1,7 +1,6 @@
-version : "3.3"
-services :
-  server:
-    build:
-      context: .
-    ports :
+version: "3.3"
+services:
+  web:
+    image: mevipulsingh/notes-app:latest 
+    ports:
       - "8000:8000"
